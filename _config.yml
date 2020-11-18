@@ -1,0 +1,48 @@
+#Site config
+
+name: Annafi Ikhwanul Azis
+title: Annafi Ikhwanul Azis | Passionate Designer
+email: annafi_@outlook.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "nafinafi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+logo: https://nafinafi.github.io/img/logo.png
+resume: https://nafinafi.github.io/resume.pdf
+
+social:
+  - title: email
+    url:  mailto:annafi_@outlook.com
+  - title: linkedin
+    url: https://www.linkedin.com/in/nafi
+posts:
+  - title: work1
+    url: https://nafinafi.github.io/_posts/work1.html
+
+# Build settings
+markdown: 
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+keep_files:
+  - '.gitignore'

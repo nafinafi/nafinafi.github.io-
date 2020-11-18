@@ -1,0 +1,114 @@
+// Colors - root
+$white: #ffffff;
+$blue: #007bff;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #28a745;
+$teal: #20c997;
+$cyan: #17a2b8;
+$white: #fff;
+$gray: #6c757d;
+$gray-dark: #343a40;
+$primary: #007bff;
+$secondary: #6c757d;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #343a40;
+$font-family-sans-serif: -apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+"Noto Sans",
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji";
+$font-family-monospace: SFMono-Regular,
+Menlo,
+Monaco,
+Consolas,
+"Liberation Mono",
+"Courier New",
+monospace;
+// Fonts - root
+// $Apercu: 'Apercu' , $font-stack;
+// Media queries - root 
+// ---berisi ukuran untuk responsive---
+$fifteen-inch: 1440px;
+$thirteen-inch: 1280px;
+$desktop-width: 1024px;
+$little-desktop: 850px;
+$tablet-width: 768px;
+$weird-not-tablet-width: 630px;
+$phablet-width: 550px;
+$mobile-width: 480px;
+$small-mobile-width: 360px;
+$tiny-mobile-width: 330px;
+// ---mixin dari quaries---
+@mixin transition {
+    transition: all 0.2s ease-in-out;
+}
+
+@mixin thirteen {
+    @media screen and (max-width: #{$thirteen-inch}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media screen and (max-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
+@mixin little-desktop {
+    @media screen and (max-width: #{$little-desktop}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media screen and (max-width: #{$tablet-width}) {
+        @content;
+    }
+}
+
+@mixin weird-medium {
+    @media screen and (max-width: #{$weird-not-tablet-width}) {
+        @content;
+    }
+}
+
+@mixin phablet {
+    @media screen and (max-width: #{$phablet-width}) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: #{$mobile-width}) {
+        @content;
+    }
+}
+
+@mixin small-mobile {
+    @media screen and (max-width: #{$small-mobile-width}) {
+        @content;
+    }
+}
+
+@mixin tiny-mobile {
+    @media screen and (max-width: #{$tiny-mobile-width}) {
+        @content;
+    }
+}

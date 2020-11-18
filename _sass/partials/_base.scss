@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased; //Font - smooth
+    -webkit-osx-font-smoothing: grayscale; //?
+    background-color: $white; //background html dan body
+    // font-family: $Apercu;
+}
